@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./signupbg.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    width: 30%;
+    height: 85%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+   
+    width: 70%;
+    height: 80%;
+}
+#email {
+    background-color: rgb(69, 66, 66);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.button {
+    color: white;
+    background-color: rgb(229,9,20);
+    width: 100%;
+    height: 50px;
+}
+.button:hover {
+    cursor: pointer;
+}
+a {
+    color: white;
+}
+p {
+    color: rgb(172, 139, 139);
+}
+.learn {
+    color: blueviolet;
+}
+.learn:hover,.help:hover {
+    cursor: pointer;
+}
+.remember {
+    display: flex;
+    gap: 100px;
+}

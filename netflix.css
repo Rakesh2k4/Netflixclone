@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+.img {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./signupbg.jpeg");
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 800px;
+    font-size: large;
+}
+.logo {
+    color: rgb(229,9,20);
+    font: bolder;
+    border-top: 10px;
+}
+.login {
+    color: white;
+    background-color: rgb(229,9,20);
+    border-radius: 20%;
+    padding: 10px;
+}
+.lan {
+    background-color: black;
+    color: white;
+}
+.login:hover{
+    cursor: pointer;
+}
+.signup {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    color: white;
+}
+.heading1 {
+    font-size: xxx-large;
+}
+.heading2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.started {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 160%;
+    background-color: rgb(229,9,20)
+}
+.enter {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email {
+    background-color: transparent;
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.started:hover {
+    cursor: pointer;
+}
+.line {
+    background-color: rgb(85, 72, 72);
+    width: 100%;
+    height: 5px;
+}
+.page2 {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details1 {
+    width: 73%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.content1 {
+    background-color: transparent;
+    width: 37%;
+    color: white;
+    font: bolder;
+}
+.tv {
+    font-size: xxx-large;
+}
+.smart {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img2 {
+    background-color: transparent;
+    width: 40%;
+    height: 60%;
+    background-image: url(./tv.gif);
+}
+.page3 {
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details2 {
+    width: 90%;
+    height: 85%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.content2 {
+    background-color: transparent;
+    width: 90%;
+    color: white;
+    font: bolder;
+}
+.phone {
+    font-size: xxx-large;
+}
+.smartp {
+    font-size: xx-large;
+    font-weight: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img3 {
+    background-color: transparent;
+    width: 80%;
+    height: 80%;
+    background-image: url(./phone.jpg);
+}
+.page4 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details3 {
+    width: 80%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.content3 {
+    background-color: transparent;
+    width: 37%;
+    color: white;
+    font: bolder;
+}
+.tv {
+    font-size: xxx-large;
+}
+.laptop {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.img4 {
+    background-color: transparent;
+    width: 30%;
+    height: 60%;
+    background-image: url(./tv.gif);
+}
+.page5 {
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details4 {
+    width: 90%;
+    height: 85%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.content4 {
+    background-color: transparent;
+    width: 90%;
+    color: white;
+    font: bolder;
+}
+.kids {
+    font-size: xxx-large;
+}
+.children {
+    font-size: xx-large;
+    font-weight: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img5 {
+    background-color: transparent;
+    width: 80%;
+    height: 80%;
+    background-image: url(./kids.png);
+}
+.page6 {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doubt {
+    background-color: transparent;
+    width: 70%;
+    height: 90%;
+}
+.questions {
+    font-size: xxx-large;
+    text-align: center;
+}
+.doubts {
+    color: white;
+    background-color: rgb(69, 43, 43);
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    font-size: x-large;
+}
+.doubt :hover,.f2 :hover {
+    cursor: pointer;
+    background-color: rgb(106, 68, 68);
+}
+.call {
+    background-color: black;
+    color:  rgb(193, 170, 170);
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cc {
+    background-color:transparent;
+    width: 30%;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    color: rgb(193, 170, 170);
+    justify-content: space-between;
+    justify-content: center;
+    gap: 400px;
+}
+.country {
+    color: rgb(193, 170, 170);
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cnt {
+    background-color: transparent;
+    width: 30%;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+}
